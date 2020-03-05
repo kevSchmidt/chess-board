@@ -1,2 +1,2 @@
 # Chest
-![](./img/chest.png)
+![](./img/chestGame.png)
