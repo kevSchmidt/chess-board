@@ -1,2 +1,2 @@
-# Chest
-![](./img/chestGame.png)
+# Chess Game with CSS
+![](./img/chessGame.png)
