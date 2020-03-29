@@ -10,10 +10,9 @@
   font-size: 16px;
   background: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.1),
       transparent,
-      rgba(0, 0, 0, 0.2)
+      rgba(0, 0, 0, 0.1)
     )
     azure;
 }
@@ -35,7 +34,7 @@ table {
     ),
     url(../img/wood.jpg) center no-repeat;
   background-size: cover;
-  box-shadow: 6px 8px 8px black;
+  box-shadow: 4px 6px 6px black;
 }
 td {
   width: 6rem;
@@ -45,4 +44,24 @@ td {
 tr:nth-child(2n) :nth-child(2n + 1),
 tr:nth-child(2n + 1) :nth-child(2n) {
   background-color: black;
+}
+@media (max-width: 850px) {
+  h1 {
+    margin-bottom: 10vh;
+    font-size: 4rem;
+  }
+  td {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+@media (max-width: 550px) {
+  h1 {
+    margin-bottom: 15vh;
+    font-size: 3rem;
+  }
+  td {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
 }
