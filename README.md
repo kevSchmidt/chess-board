@@ -1,7 +1,7 @@
-# Exercise: create a chessboard using css selectors
-## We use a table and style it with CSS pseudo-class.
+# Chess Board
 ![](./img/chessBoard.png)
+- We create a table and style it with CSS selectors.
+## We use pseudo-class to select odd and even boxes:
 ### :nth-child()
-#### We use pseudo-class to select odd and even boxes:
 ![](./img/child.png)
 
